@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "secondbrain-wiki": {
+      "command": "python3",
+      "args": [
+        "<path-to-wiki>/wiki_mcp_server.py"
+      ],
+      "env": {
+        "HESTIA_WIKI_DIR": "<path-to-wiki-dir>",
+        "HESTIA_WIKI_DE_DIR": "<path-to-wiki-de-dir>",
+        "PYTHONPATH": "<path-to-engine>"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# Secrets / credentials
+*.env
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Image / build artifacts (never in a templates repo)
+*.iso
+*.qcow2
+*.img
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# macOS/SMB-Artefakte
+.smbdelete*
+.DS_Store
+.fuse_hidden*

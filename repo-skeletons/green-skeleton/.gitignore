@@ -1,0 +1,25 @@
+# Secrets / credentials
+*.env
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Image / build artifacts
+*.iso
+*.qcow2
+*.img
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
